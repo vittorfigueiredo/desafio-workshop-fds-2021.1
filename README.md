@@ -1,3 +1,3 @@
-#MEUS ANIMES
+# MEUS ANIMES
 
-![CapturaDeTela](screeshots/screenshot1.png)
+![captura1](screeshots/screenshot1.png)
