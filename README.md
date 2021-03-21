@@ -1,4 +1,4 @@
-# MEUS ANIMES
+# MEUS ANIMES 🎞
 
 ### PÁGINA INICIAL
 ![captura1](https://github.com/vitorfigueiredopb/desafio-workshop-fds-2021.1/blob/master/screenshots/screenshot1.png)
@@ -12,7 +12,7 @@
 ### PÁGINA DE CONFIRMAR EXCLUSÃO DE UM ANIME
 ![captura4](https://github.com/vitorfigueiredopb/desafio-workshop-fds-2021.1/blob/master/screenshots/screenshot4.png)
 
-# COMO RODAR O PROJETO NA SUA MÁQUINA?
+# COMO RODAR O PROJETO NA SUA MÁQUINA 👇
 
 ### Pré-requesitos para a execução do projeto no Ubuntu
 PostgreSQL: https://www.postgresql.org/download/linux/ubuntu/
