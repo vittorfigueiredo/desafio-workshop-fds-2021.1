@@ -1,0 +1,21 @@
+table {
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+table tr {
+    padding: 20px;
+}
+
+table td {
+    padding-left: 40px;
+    color: #ffff;
+    height: 60px;
+}
+
+
+.table_cores {
+    background: #010440;
+}

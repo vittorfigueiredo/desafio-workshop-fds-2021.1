@@ -1,0 +1,29 @@
+{% load static %}
+
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="{% static 'styles/main.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/buttons.css' %}">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Atualizar</title>
+
+</head>
+<body>
+<div class="container">
+
+    <h1>Atualizando console {{ console.consoleName }}:</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+    <button class="update_button" type="submit"><a href="{% url 'list_animes %"}></a>Atualizar</button>
+    <button class="cancel_button" type="button"><a href="{% url 'list_animes' %}">Cancelar</a></button>
+    </form>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="{% static 'styles/main.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/table.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/buttons.css' %}">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Meus Animes</title>
+
+</head>
+<body>
+<div class="container">
+
+    <h1>Meus Animes</h1>
+
+    <table class="table table_cores">
+        <tr>
+            <td>ID</td>
+            <td>Nome do Anime</td>
+            <td>Produtora</td>
+            <td>Ano de Lançamento</td>
+            <td>Sinopse</td>
+            <td><a class="add_button" href="{% url 'create_anime' %}">Adicionar</a></td>
+        </tr>
+    {% for anime in animes %}
+            <tr>
+                <td>{{ anime.id }}</td>
+                <td>{{ anime.animeName }}</td>
+                <td>{{ anime.produtora }}</td>
+                <td>{{ anime.lancamento }}</td>
+                <td>{{ anime.sinopse }}</td>
+                <td><a class="update_button" href="{% url 'update_anime' anime.id %}">Atualizar</a></td>
+                <td><a class="delete_button" href="{% url 'delete_anime' anime.id %}">Excluir</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+
+</div>
+</body>
+</html>

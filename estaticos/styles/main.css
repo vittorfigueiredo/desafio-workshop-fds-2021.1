@@ -1,0 +1,52 @@
+/*Estilo do corpo da página*/
+body {
+    margin: 0 300px;
+    background-image: url(../images/bg.jpg);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    background-color: #010440 ;
+    color: #ffff;
+    border-radius: 8px;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin: 32px 0;
+
+    height: 100px;
+    line-height: 9vh;
+}
+
+.container {
+    text-align: center;
+    
+}
+
+/*Estilo do formulário*/
+form {
+    margin: 0;
+    padding: 20px;
+    background-color: #010440;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    color: #ffff;
+}
+
+form input {
+    border: none;
+    border-radius: 6px;
+    height: 38px;
+}
+
+form input#id_descricao {
+    height: 100px;
+    resize: horizontal;
+}
+
+p.confirmText {
+    color: #ffff;
+}
