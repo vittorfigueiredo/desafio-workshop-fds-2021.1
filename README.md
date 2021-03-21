@@ -35,9 +35,11 @@ Para instalar:
 `$ sudo apt-get install python3-venv`
 
 Para criar o ambiente virtual:
+
 `$ python3 -m venv venv`
 
 Ativando a venv:
+
 `$ source venv/bin/activate`
 
 ### Instalando o requirements.txt
