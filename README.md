@@ -17,11 +17,10 @@
 ### Pré-requesitos para a execução do projeto no Ubuntu
 PostgreSQL: https://www.postgresql.org/download/linux/ubuntu/
 
-Configure no arquivo ![settings.py](https://github.com/vitorfigueiredopb/desafio-workshop-fds-2021.1/blob/master/projeto/settings.py)(linha 78) de acordo com as configurações feitas no seu postgres.
+Configure o arquivo [settings.py](https://github.com/vitorfigueiredopb/desafio-workshop-fds-2021.1/blob/master/projeto/settings.py) na linha 78 de acordo com as configurações feitas no seu postgres.
 
 LINKS ÚTEIS SOBRE O POSTGRES:
-![Como mudar sua senha do postgres](https://stackoverflow.com/questions/12720967/postgresql-how-to-change-postgresql-user-password)
-![Como criar um banco de dados no postgres](https://www.postgresql.org/docs/8.4/tutorial-createdb.html)
+[Como mudar sua senha do postgres](https://stackoverflow.com/questions/12720967/postgresql-how-to-change-postgresql-user-password)- [Como criar um banco de dados no postgres](https://www.postgresql.org/docs/8.4/tutorial-createdb.html)
 
 ### Clonando o repositório e mudando para ele
 
