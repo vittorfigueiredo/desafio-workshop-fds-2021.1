@@ -25,6 +25,7 @@ LINKS ÚTEIS SOBRE O POSTGRES:
 ### Clonando o repositório e mudando para ele
 
 `$ git clone https://github.com/vitorfigueiredopb/desafio-workshop-fds-2021.1.git
+
  $ cd desafio-workshop-fds2021.1`
 
 ### Comandos para instalar, criar e ativar o ambiente virtual Python
